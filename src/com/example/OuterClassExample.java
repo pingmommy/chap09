@@ -19,7 +19,7 @@ public class OuterClassExample {
 		int b1;
 		void show(){
 			System.out.println("스태틱 클래스 B "+b1);
-	}
+	  }
 	}
 	class Alpha{  //Alpha2
 		
@@ -34,7 +34,7 @@ public class OuterClassExample {
 		class C{
 			void print() {
 				System.out.println("local C");
-		}
+		   }
 		}
 		
 		//A a= new A();
